@@ -1,4 +1,4 @@
-# IT Skills — Multi-Site Enterprise Network
+# IT Skills — Multi-Site Enterprise Network Packet Tracer Project
 
 ![Cisco Packet Tracer](https://img.shields.io/badge/Cisco-Packet%20Tracer-1BA0D7)
 ![Routing](https://img.shields.io/badge/Routing-OSPF%20Area%200-2E75B6)
