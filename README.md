@@ -27,7 +27,7 @@ A six-site enterprise network built and verified in Cisco Packet Tracer. **IT Sk
 
 ## Topology
 
-![Packet Tracer logical topology](images/Multi-Site Enterprise Network Topology_Cisco Packet Tracer.png)
+![Packet Tracer logical topology](images/Multi_Site_Enterprise_Network_Topology.png)
 
 ## At a glance
 
@@ -93,7 +93,7 @@ All routers and core switches run OSPF in a single area (process 1, area 0). Rou
 
 `GER-EDGE` has six OSPF neighbors, all in FULL state: the five branch edge routers and `GER-CORE`. The ISP link is not an OSPF neighbor.
 
-![GER-EDGE OSPF neighbors](images/ospf-neighbors.png)
+![GER-EDGE OSPF neighbors](images/show_ip_ospf_neighbor_in_GER_Edge.png)
 
 ## Network services
 
@@ -105,7 +105,7 @@ All routers and core switches run OSPF in a single area (process 1, area 0). Rou
 
 The servers sit in VLAN 70 behind `10.10.70.1` (the VLAN 70 SVI on `GER-CORE`). Branches reach them through OSPF-learned routes via `GER-EDGE`.
 
-![Company website loaded from a branch PC](images/website.png)
+![Company website loaded from a branch PC](images/show_the_project_website_in_Egypt_branch.png)
 
 ## Guest VLAN security
 
@@ -147,9 +147,9 @@ Extended IP access list DXB-GUEST-IN
 
 **Reading the TTL.** Packet Tracer PCs start at TTL 128. A reply TTL of 123 on the KSA-to-India ping means five routed hops (KSA-CORE, KSA-EDGE, GER-EDGE, IND-EDGE, IND-CORE), which confirms that branch-to-branch traffic transits the HQ hub as designed.
 
-![Cross-branch ping from KSA to India](images/cross-branch-ping.png)
+![Cross-branch ping from KSA to India](images/cross_branch_ping.png)
 
-![Guest ACL on DXB-CORE](images/guest-acl.png)
+![Guest ACL on DXB-CORE](show_access-lists_in_DXB_Core.png)
 
 ## Useful commands
 
