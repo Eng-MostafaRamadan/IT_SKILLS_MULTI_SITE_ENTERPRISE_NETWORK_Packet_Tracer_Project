@@ -28,6 +28,7 @@ A six-site enterprise network built and verified in Cisco Packet Tracer. **IT Sk
 ## Topology
 
 ![Packet Tracer logical topology](Images/Multi_Site_Enterprise_Network_Topology.png)
+![Packet Tracer logical topology](Images/Multi_Site_Enterprise_Network_Topology_Cisco_Packet_Tracer.png)
 
 ## At a glance
 
