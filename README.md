@@ -197,4 +197,6 @@ OSPF · VLANs and 802.1Q trunking · Inter-VLAN routing on Layer 3 switches · D
 
 ## Author
 
-**Mostafa Ramadan** — add your LinkedIn and GitHub links here.
+**Mostafa Ramadan** — add your LinkedIn and GitHub links here
+LinkedIn: linkedin.com/in/eng-mostafa-ramadan
+GitHub: github.com/Eng-MostafaRamadan
