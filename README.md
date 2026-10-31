@@ -183,11 +183,16 @@ OSPF · VLANs and 802.1Q trunking · Inter-VLAN routing on Layer 3 switches · D
 ├── docs/
 │   └── IT_Skills_Multisite_Network_Documentation.pdf
 └── images/
-    ├── topology.png
-    ├── ospf-neighbors.png
-    ├── website.png
-    ├── cross-branch-ping.png
-    └── guest-acl.png
+    ├── Multi_Site_Enterprise_Network_Topology.png
+    ├── Multi_Site_Enterprise_Network_Topology_Cisco_Packet_Tracer.png
+    ├── Multi_Site_Enterprise_Network_Topology1.png
+    ├── cross_branch_ping.png
+    ├── show_access-lists_in_DXB_Core.png
+    ├── show_interfaces_trunk.png
+    ├── show_ip_interface_brief.png
+    ├── show_ip_ospf_neighbor_in_GER_Edge.png
+    ├── show_the_project_website_in_Egypt_branch.png
+    └── show_vlan_brief.png
 ```
 
 ## How to open the project
